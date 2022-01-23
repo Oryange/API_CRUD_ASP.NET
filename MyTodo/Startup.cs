@@ -10,6 +10,7 @@ namespace MyTodo
   {
     public void ConfigureServices(IServiceCollection services)
     {
+      services.AddControllers();
     }
 
     public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -23,10 +24,9 @@ namespace MyTodo
 
       app.UseEndpoints(endpoints =>
       {
-        endpoints.MapGet("/", async context =>
-              {
-            await context.Response.WriteAsync("Hello World!");
-          });
+        endpoints.MapControllerRoute(
+          name: "default",
+          pattern: "{controller=Home}/{action=Index}/{id?}");
       });
     }
   }
