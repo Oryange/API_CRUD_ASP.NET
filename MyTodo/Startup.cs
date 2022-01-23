@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using MyTodo.Data;
 
 namespace MyTodo
 {
@@ -11,6 +12,7 @@ namespace MyTodo
     public void ConfigureServices(IServiceCollection services)
     {
       services.AddControllers();
+      services.AddDbContext<AppDbContext>();
     }
 
     public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
