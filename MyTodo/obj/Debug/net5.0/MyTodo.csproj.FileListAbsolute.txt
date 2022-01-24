@@ -1,3 +1,9 @@
+/home/sundari/Repositórios-github/API_CRUD_ASP.NET/MyTodo/obj/Debug/net5.0/MyTodo.csproj.AssemblyReference.cache
+/home/sundari/Repositórios-github/API_CRUD_ASP.NET/MyTodo/obj/Debug/net5.0/MyTodo.GeneratedMSBuildEditorConfig.editorconfig
+/home/sundari/Repositórios-github/API_CRUD_ASP.NET/MyTodo/obj/Debug/net5.0/MyTodo.AssemblyInfoInputs.cache
+/home/sundari/Repositórios-github/API_CRUD_ASP.NET/MyTodo/obj/Debug/net5.0/MyTodo.AssemblyInfo.cs
+/home/sundari/Repositórios-github/API_CRUD_ASP.NET/MyTodo/obj/Debug/net5.0/MyTodo.csproj.CoreCompileInputs.cache
+/home/sundari/Repositórios-github/API_CRUD_ASP.NET/MyTodo/obj/Debug/net5.0/MyTodo.MvcApplicationPartsAssemblyInfo.cache
 /home/sundari/Repositórios-github/API_CRUD_ASP.NET/MyTodo/bin/Debug/net5.0/appsettings.Development.json
 /home/sundari/Repositórios-github/API_CRUD_ASP.NET/MyTodo/bin/Debug/net5.0/appsettings.json
 /home/sundari/Repositórios-github/API_CRUD_ASP.NET/MyTodo/bin/Debug/net5.0/MyTodo
@@ -35,12 +41,6 @@
 /home/sundari/Repositórios-github/API_CRUD_ASP.NET/MyTodo/bin/Debug/net5.0/runtimes/win-arm64/native/e_sqlite3.dll
 /home/sundari/Repositórios-github/API_CRUD_ASP.NET/MyTodo/bin/Debug/net5.0/runtimes/win-x64/native/e_sqlite3.dll
 /home/sundari/Repositórios-github/API_CRUD_ASP.NET/MyTodo/bin/Debug/net5.0/runtimes/win-x86/native/e_sqlite3.dll
-/home/sundari/Repositórios-github/API_CRUD_ASP.NET/MyTodo/obj/Debug/net5.0/MyTodo.csproj.AssemblyReference.cache
-/home/sundari/Repositórios-github/API_CRUD_ASP.NET/MyTodo/obj/Debug/net5.0/MyTodo.GeneratedMSBuildEditorConfig.editorconfig
-/home/sundari/Repositórios-github/API_CRUD_ASP.NET/MyTodo/obj/Debug/net5.0/MyTodo.AssemblyInfoInputs.cache
-/home/sundari/Repositórios-github/API_CRUD_ASP.NET/MyTodo/obj/Debug/net5.0/MyTodo.AssemblyInfo.cs
-/home/sundari/Repositórios-github/API_CRUD_ASP.NET/MyTodo/obj/Debug/net5.0/MyTodo.csproj.CoreCompileInputs.cache
-/home/sundari/Repositórios-github/API_CRUD_ASP.NET/MyTodo/obj/Debug/net5.0/MyTodo.MvcApplicationPartsAssemblyInfo.cache
 /home/sundari/Repositórios-github/API_CRUD_ASP.NET/MyTodo/obj/Debug/net5.0/staticwebassets/MyTodo.StaticWebAssets.Manifest.cache
 /home/sundari/Repositórios-github/API_CRUD_ASP.NET/MyTodo/obj/Debug/net5.0/staticwebassets/MyTodo.StaticWebAssets.xml
 /home/sundari/Repositórios-github/API_CRUD_ASP.NET/MyTodo/obj/Debug/net5.0/scopedcss/bundle/MyTodo.styles.css

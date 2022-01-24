@@ -86,17 +86,39 @@ namespace MyTodo.Controllers
       if (todo == null)
         return NotFound();
 
-        try
-        {
-            todo.Title = model.Title;
-            context.Todos.Update(todo);
-            await context.SaveChangesAsync();
-            return Ok(todo);
-        }
-        catch (Exception)
-        {
-            return BadRequest();
-        }
+      try
+      {
+        todo.Title = model.Title;
+        context.Todos.Update(todo);
+        await context.SaveChangesAsync();
+        return Ok(todo);
+      }
+      catch (Exception)
+      {
+        return BadRequest();
+      }
+    }
+
+    [HttpDelete]
+    [Route(template: "todos/{id}")]
+    public async Task<IActionResult> DeleteAsync(
+        [FromServices] AppDbContext context,
+        [FromRoute] int id
+    )
+    {
+      var todo = await context
+      .Todos
+      .FirstOrDefaultAsync(x => x.Id == id);
+      try
+      {
+        context.Todos.Remove(todo);
+        await context.SaveChangesAsync();
+        return Ok();
+      }
+      catch (Exception)
+      {
+        return BadRequest();
+      }
     }
   }
 }
